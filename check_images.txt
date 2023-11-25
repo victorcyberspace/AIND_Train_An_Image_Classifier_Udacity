@@ -1,0 +1,20 @@
+Questions regarding Uploaded Image Classification:
+
+1. Did the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed? If not, report the differences in the classifications.
+
+Answer: Yes, they all did. It was recognized as a  german shepherd dog.
+
+
+2. Did each of the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed of dog as that model architecture classified Dog_02.jpg? If not, report the differences in the classifications.
+
+Answer: Yes, they all did. 
+
+
+3. Did the three model architectures correctly classify Animal_Name_01.jpg and Object_Name_01.jpg to not be dogs? If not, report the misclassifications.
+
+Answer: Yes they did. All the three were right about the remaining images not being dogs but had some difficulty in identifying the correct type of white rose flower except vgg. 
+
+
+4. Based upon your answers for questions 1. - 3. above, select the model architecture that you feel did the best at classifying the four uploaded images. Describe why you selected that model architecture as the best on uploaded image classification.
+
+Answer: vgg is the best model because it was the only model among the three that correctly classified the white rose flower as a daisy type, the others like resnet classified it at one point as a sulphur crested cockatoo type, and alexnet simply made it funnier by classifying the white rose flower as a bee type.  
